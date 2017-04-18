@@ -1,0 +1,16 @@
+package vaski.warmup;
+
+import java.util.Scanner;
+
+public class BirthDay_Candles {
+
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        int n = in.nextInt();
+        int height[] = new int[n];
+        for(int height_i=0; height_i < n; height_i++){
+            height[height_i] = in.nextInt();
+        }
+    }
+
+}

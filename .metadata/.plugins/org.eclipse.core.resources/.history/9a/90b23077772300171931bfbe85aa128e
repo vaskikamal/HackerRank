@@ -1,0 +1,25 @@
+package vaski.warmup;
+
+import java.util.Scanner;
+
+/**
+ * https://www.hackerrank.com/challenges/time-conversion
+ * 
+ *
+ */
+public class TimeConversion {
+
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+		String time = in.next();
+
+		String[] split = time.split(":");
+		int val = Integer.parseInt(split[0]);
+		if (val < 12) {
+			val = val+12;
+			split[0] = Integer.toString(val);
+		}
+		
+		System.out.println(split[0]+":"+split[1] +":"+ split[2]);
+	}
+}

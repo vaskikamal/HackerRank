@@ -1,0 +1,20 @@
+package vaski.warmup;
+
+import java.util.Scanner;
+
+public class SimpleArraySum {
+
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+		int N;
+		N = in.nextInt();
+		int[] arr = new int[N];
+		int sum=0;
+		for (int i = 0; i < N; i++) {
+			arr[i] = in.nextInt();
+			sum += arr[i];
+		}
+		
+		System.out.println("Sum is + " + sum);
+	}
+}

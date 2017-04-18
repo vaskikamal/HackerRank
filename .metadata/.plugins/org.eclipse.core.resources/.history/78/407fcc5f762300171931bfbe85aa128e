@@ -1,0 +1,16 @@
+package vaski.warmup;
+
+import java.util.Scanner;
+
+/**
+ * https://www.hackerrank.com/challenges/time-conversion
+ * @author vaski
+ *
+ */
+public class TimeConversion {
+
+	public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        String time = in.next();
+    }
+}
