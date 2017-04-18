@@ -1,4 +1,4 @@
-package vaski.warmup;
+package warmup;
 
 import java.util.Scanner;
 
